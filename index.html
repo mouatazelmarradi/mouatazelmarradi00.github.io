@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger house</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+
+                <div class="four columns">
+                    <h1><img src="img/logo.png" alt="">Burger</h1>
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" alt="">
+                            <div id="chariot">
+                                <p class="vide">chariot vide </p>
+                                <table class="u-max-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>image</th>
+                                            <th>plats</th>
+                                            <th>prix</th>
+                                        </tr>
+                                    </thead>
+
+
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo1.jpg" width="100">
+                                            </td>
+                                            <td>burger avec glace</td>
+                                            <td>150Dh</td>
+                                            <td> <a href="#" class="effacer-plat">x</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo3.jpg" width="100">
+                                            </td>
+                                            <td>burger basique</td>
+                                            <td>150Dh</td>
+                                            <td><a href="#" class="effacer-plat">x</a></td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+                                <a href="a" clas="button u-max-full-width">supprimer le chariot</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="content-hero">
+                        <h2>Essayer un burger</h2>
+                        <p>Tous nos burgers a 150Dh</p>
+                        <form>
+                            <input class="u-full-width" type="text" placeholder="Qu'aimeriez-vous essayer?" id="searcher">
+                            <input type="submit" class="submit-searcher">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barre">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1  ">
+                    <p>100 differents plats<br> Explorez les nouveaux plats </p>
+                </div>
+
+                <div class="four columns icono icono2  ">
+                    <p>Chef expert <br> Essayez les nouvelles combinaisons </p>
+                </div>
+                <div class="four columns icono icono3  ">
+                    <p>boisson a volonte<br> Essaye ta bisson prefere </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="liste-plats" class="container">
+        <h1 class="header">Commandes en ligne</h1>
+
+        <div class="row">
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo1.jpg" class="image dish u-full-width">
+                    <div class="info-card">
+                        <h4>Burger basique</h4>
+                        <p>Boisson a volonte</p>
+                        <img src="img/estrellas.png">
+                        <p class="price">150Dh<span class="u-pull-right">100Dh</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo2.jpg" class="image dish u-full-width">
+                    <div class="info-card">
+                        <h4>Burger avec frites</h4>
+                        <p>Boisson a volonte</p>
+                        <img src="img/estrellas.png">
+                        <p class="price">150Dh<span class="u-pull-right">100Dh</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo3.jpg" class="image dish u-full-width">
+                    <div class="info-card">
+                        <h4>Burger avec glace et frites</h4>
+                        <p>boisson a volonte</p>
+                        <img src="img/estrellas.png">
+                        <p class="price">150Dh<span class="u-pull-right">100Dh</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo4.jpg" class="image dish u-full-width">
+                        <div class="info-card">
+                            <h4>Burger basique</h4>
+                            <p>boisson a volonte</p>
+                            <img src="img/estrellas.png">
+                            <p class="price">150Dh<span class="u-pull-right">100Dh</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo5.jpg" class="image dish u-full-width">
+                        <div class="info-card">
+                            <h4>Burger avecfrites</h4>
+                            <p>boisson a volonte</p>
+                            <img src="img/estrellas.png">
+                            <p class="price">150Dh<span class="u-pull-right">100Dh</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo1.jpg" class="image dish u-full-width">
+                        <div class="info-card">
+                            <h4>Burger avec glace </h4>
+                            <p>boisson a volonte</p>
+                            <img src="img/estrellas.png">
+                            <p class="price">150Dh<span class="u-pull-right">100Dh</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row">
+
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo2.jpg" class="image dish u-full-width">
+                        <div class="info-card">
+                            <h4>Burger basique</h4>
+                            <p>boisson a volonte</p>
+                            <img src="img/estrellas.png">
+                            <p class="price">150Dh<span class="u-pull-right">100Dh</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo3.jpg" class="image dish u-full-width">
+                        <div class="info-card">
+                            <h4>Burger avec frites</h4>
+                            <p>boisson a volonte</p>
+                            <img src="img/estrellas.png">
+                            <p class="price">150Dh<span class="u-pull-right">100Dh</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo4.jpg" class="image dish u-full-width">
+                        <div class="info-card">
+                            <h4>Burger avec glace </h4>
+                            <p>boisson a volonte</p>
+                            <img src="img/estrellas.png">
+                            <p class="price">150Dh<span class="u-pull-right">100Dh</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="four columns">
+                        <div class="card">
+                            <img src="img/platillo5.jpg" class="image dish u-full-width">
+                            <div class="info-card">
+                                <h4>Burger basique</h4>
+                                <p>boisson a volonte</p>
+                                <img src="img/estrellas.png">
+                                <p class="price">150Dh<span class="u-pull-right">100Dh</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four columns">
+                        <div class="card">
+                            <img src="img/platillo1.jpg" class="image dish u-full-width">
+                            <div class="info-card">
+                                <h4>Burger avec frites</h4>
+                                <p>boisson a volonte</p>
+                                <img src="img/estrellas.png">
+                                <p class="price">150Dh<span class="u-pull-right">100Dh</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four columns">
+                        <div class="card">
+                            <img src="img/platillo2.jpg" class="image dish u-full-width">
+                            <div class="info-card">
+                                <h4>Burger avec glace</h4>
+                                <p>boisson a volonte</p>
+                                <img src="img/estrellas.png">
+                                <p class="price">150Dh<span class="u-pull-right">100Dh</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Ajouter au chariot </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <footer class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="four columns">
+                                <nav clas="menu">
+                                    <a class="link" href="#">Commandes a domicille</a>
+                                    <a class="link" href="#">Commandes en ligne</a>
+                                    <a class="link" href="#">Commandes par telephone</a>
+                                    <a class="link" href="#">Menu</a>
+                                    <a class="link" href="#">Boissons</a>
+                                </nav>
+                            </div>
+                            <div class="four columns">
+                                <nav class="menu">
+                                    <a href="link" href="#">Restaurant</a>
+                                    <a href="link" href="#">Localisation</a>
+                                    <a href="link" href="#">telephone</a>
+
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+</body>
+
+</html>
